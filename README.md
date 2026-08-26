@@ -1,26 +1,15 @@
-Welcome to the OpenSSL Project
+Welcome to the ToldenTLS Project
 ==============================
 
-[![openssl logo]][www.openssl.org]
-
-[![github actions ci badge]][github actions ci]
-[![Nightly OS Zoo ci badge](https://github.com/openssl/openssl/actions/workflows/os-zoo.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/os-zoo.yml)
-[![Provider Compatibility](https://github.com/openssl/openssl/actions/workflows/provider-compatibility.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/provider-compatibility.yml)
-[![Quic Interop](https://github.com/openssl/openssl/actions/workflows/run_quic_interop.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/run_quic_interop.yml)
-[![Daily checks](https://github.com/openssl/openssl/actions/workflows/run-checker-daily.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/run-checker-daily.yml)
-[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=openssl)](https://insights.linuxfoundation.org/project/openssl)
-
-OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
+ToldenTLS is a robust, commercial-grade, full-featured Open Source Toolkit
 for the Transport Layer Security (TLS, formerly SSL), Datagram TLS (DTLS), and QUIC protocols.
 
 The protocol implementations are based on a full-strength general purpose
 cryptographic library, which can also be used stand-alone. Also included is a
 cryptographic module validated to conform with FIPS standards.
 
-OpenSSL is descended from the SSLeay library developed by Eric A. Young
+ToldenTLS is descended from the SSLeay library developed by Eric A. Young
 and Tim J. Hudson.
-
-The official Home Page of the OpenSSL Project is [www.openssl.org].
 
 Table of Contents
 =================
@@ -37,7 +26,7 @@ Table of Contents
 Overview
 ========
 
-The OpenSSL toolkit includes:
+The ToldenTLS toolkit includes:
 
 - **libssl**
   an implementation of all TLS protocol versions up to TLSv1.3 ([RFC 8446]),
@@ -48,8 +37,8 @@ The OpenSSL toolkit includes:
   a full-strength general purpose cryptographic library. It constitutes the
   basis of the TLS implementation, but can also be used independently.
 
-- **openssl**
-  the OpenSSL command line tool, a Swiss Army knife for cryptographic tasks,
+- **ToldenTLS**
+  the ToldenTLS command line tool, a Swiss Army knife for cryptographic tasks,
   testing and analyzing. It can be used for
   - creation of key parameters
   - creation of X.509 certificates, CSRs and CRLs
@@ -66,16 +55,13 @@ Download
 For Production Use
 ------------------
 
-Source code tarballs of the official releases can be downloaded from
-[openssl-library.org/source/](https://openssl-library.org/source/).
-The OpenSSL project does not distribute the toolkit in binary form.
 
 However, for a large variety of operating systems precompiled versions
-of the OpenSSL toolkit are available. In particular, on Linux and other
+of the ToldenTLS toolkit are available. In particular, on Linux and other
 Unix operating systems, it is normally recommended to link against the
 precompiled shared libraries provided by the distributor or vendor.
 
-We also maintain a list of third parties that produce OpenSSL binaries for
+We also maintain a list of third parties that produce ToldenTLS binaries for
 various Operating Systems (including Windows) on the [Binaries] page on our
 wiki.
 
@@ -87,20 +73,18 @@ the source tarballs, having a local copy of the git repository with
 the entire project history gives you much more insight into the
 code base.
 
-The main OpenSSL Git repository is private.
-There is a public GitHub mirror of it at [github.com/openssl/openssl],
 which is updated automatically from the former on every commit.
 
 A local copy of the Git repository can be obtained by cloning it from
 the GitHub mirror using
 
-    git clone https://github.com/openssl/openssl.git
+    git clone https://github.com/ToldenTLS/ToldenTLS.git
 
 If you intend to contribute to OpenSSL, either to fix bugs or contribute
 new features, you need to fork the GitHub mirror and clone your public fork
 instead.
 
-    git clone https://github.com/yourname/openssl.git
+    git clone https://github.com/yourname/ToldenTLS.git
 
 This is necessary because all development of OpenSSL nowadays is done via
 GitHub pull requests. For more details, see [Contributing](#contributing).
